@@ -25,6 +25,13 @@ g++ record.cpp -o record -O2 -Ieigen-3.4.0 -lm -std=c++17
 ```
 就會開始錄音了。
 
+## 影片
+
+
+
+https://github.com/user-attachments/assets/3282d5e6-1cff-4042-82b9-f5d7c48f38b4
+
+
 ---
 
 ## 限制
