@@ -31,7 +31,6 @@ g++ record.cpp -o record -O2 -Ieigen-3.4.0 -lm -std=c++17
 
 https://github.com/user-attachments/assets/3282d5e6-1cff-4042-82b9-f5d7c48f38b4
 
-
 ---
 
 ## 限制
@@ -41,4 +40,12 @@ https://github.com/user-attachments/assets/3282d5e6-1cff-4042-82b9-f5d7c48f38b4
 - 這邊是通過降低 order 數和通道參數的更新頻率來解決。
 - 演算法無法保證穩定性，order 數太大會有不穩定的問題。
 - 目前沒有處理 buffer 的問題，錄太久記憶體會爆掉。
+
+--- 
+## 使用到的第三方函式庫
+- Eigen-3.4.0 用來做矩陣運算。
+- miniaudio 用來錄音和放音。
+
+
+
 
