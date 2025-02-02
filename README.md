@@ -5,7 +5,7 @@
 由於我們知道之前播放的訊號是什麼，只要能夠知道喇叭到麥克風之間的通道，
 就可以從收到的訊號中扣掉回授的訊號，只留下想要的訊號。
 
-實作上，參考的是 "Study of the General Kalman Filter for Echo Cancellation" 這篇文章中的方法。
+實作上，參考的是 "Study of the General Kalman Filter for Echo Cancellation" (https://ieeexplore.ieee.org/document/6457439) 這篇文章中的方法。
 使用式 (63)-(68) 的 order=1 的式子。
 
 ---
